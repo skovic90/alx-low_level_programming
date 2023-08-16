@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *_times_table - function that prints the 9 times table, starting with 0
+ *_times_table - function that prints the 9 times table
  *Return: 0
  */
 
@@ -12,7 +12,7 @@ int i, j, result;
 
 for (i = 0; i < 10; i++)
 {
-for (j = o; j  10; j++)
+for (j = 0; j  10; j++)
 {
 result = i = j;
 if (j == 0)
