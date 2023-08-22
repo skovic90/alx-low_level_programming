@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void puts_hald(char *str)
+void puts_half(char *str)
 {
 	int j = 0;
 	int k;
@@ -19,7 +19,7 @@ void puts_hald(char *str)
 	if (j % 2 == 1)
 	{
 	k = (j - 1) / 2;
-	k += j; 
+	k += 1; 
 	}
 	else
 	{
